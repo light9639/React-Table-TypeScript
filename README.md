@@ -30,6 +30,7 @@ $ yarn add react-table sass
 ### ⚡ MOCK_DATA.json
 - 완성본과 똑같이 만들고 싶다면, 현재 폴더에 있는 `MOCK_DATA.json`의 자료를 다운 받아 사용하면 된다. 
 - 만약 다른 자료를 이용하고 싶다면 `mockup data` 생성 사이트에서 데이터를 생성한 데이터로 작성하면 된다.
+- 더미데이터를 만들고 싶다면 <a href="https://wooncloud.tistory.com/68">더미데이터 만들기 글</a>을 참고하여 <a href="https://www.mockaroo.com/">mockaroo</a>사이트에서 자료를 생성할 수 있다.
 ### ⚡ App.tsx
 - `useMemo`를 사용하여 데이터가 변경될 때만 사용하도록 만듬.
 - `react-table` 라이브러리를 이용하여 `MOCK_DATA.json`의 자료들을 가져와 테이블에 자료를 넣는다.
